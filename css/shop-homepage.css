@@ -9,7 +9,10 @@ body {
   background-image: url("../images/img-background.jpg");
 }
 /* Visit https://nicolaskadis.info/projects/pure-css-flip-cards-using-bootstrap-4-and-css-grid-no-js for an explanation */
-
+/* Carousel CSS */
+.col{
+    margin-left: 150px;
+}
 /* for demo purposes */
 .card {
   margin: 10px 10px;
@@ -26,7 +29,7 @@ body {
   grid-template: 1fr / 1fr;
   grid-template-areas: "frontAndBack";
   transform-style: preserve-3d;
-  transition: all 0.7s ease;
+  transition: all 0.6s ease;
 }
 
 .card-flip div {
